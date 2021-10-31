@@ -1,13 +1,13 @@
-[debug] [2021-10-30T00:14:27.878Z] ----------------------------------------------------------------------
-[debug] [2021-10-30T00:14:27.881Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\buigi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2021-10-30T00:14:27.881Z] CLI Version:   9.21.0
-[debug] [2021-10-30T00:14:27.882Z] Platform:      win32
-[debug] [2021-10-30T00:14:27.882Z] Node Version:  v16.8.0
-[debug] [2021-10-30T00:14:27.882Z] Time:          Sat Oct 30 2021 07:14:27 GMT+0700 (Indochina Time)
-[debug] [2021-10-30T00:14:27.883Z] ----------------------------------------------------------------------
+[debug] [2021-10-31T09:00:35.843Z] ----------------------------------------------------------------------
+[debug] [2021-10-31T09:00:35.846Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\buigi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-10-31T09:00:35.847Z] CLI Version:   9.21.0
+[debug] [2021-10-31T09:00:35.847Z] Platform:      win32
+[debug] [2021-10-31T09:00:35.847Z] Node Version:  v16.8.0
+[debug] [2021-10-31T09:00:35.847Z] Time:          Sun Oct 31 2021 16:00:35 GMT+0700 (Indochina Time)
+[debug] [2021-10-31T09:00:35.848Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2021-10-30T00:14:27.958Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-10-30T00:14:27.958Z] > authorizing via signed-in user (buigiangquynh@gmail.com)
+[debug] [2021-10-31T09:00:35.916Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-31T09:00:35.917Z] > authorizing via signed-in user (buigiangquynh@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -17,7 +17,7 @@
 
 You're about to initialize a Firebase project in this directory:
 
-  C:\Users\buigi\OneDrive\Desktop\BaccaratGame\ViewGame
+  C:\Users\buigi\OneDrive\Desktop\ViewGame
 
 Before we get started, keep in mind:
 
@@ -31,15 +31,11 @@ Before we get started, keep in mind:
 [info] but for now we'll just set up a default project.
 [info] 
 [info] i  .firebaserc already has a default project, using chatdemo-c001f. 
-[debug] [2021-10-30T00:14:39.031Z] > refreshing access token with scopes: []
-[debug] [2021-10-30T00:14:39.031Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- <request body omitted>
-[debug] [2021-10-30T00:14:39.269Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sat, 30 Oct 2021 00:14:37 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-10-30T00:14:39.299Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chatdemo-c001f [none]
-[debug] [2021-10-30T00:14:40.007Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chatdemo-c001f 403
-[debug] [2021-10-30T00:14:40.008Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chatdemo-c001f {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2021-10-30T00:14:40.009Z] HTTP Error: 403, The caller does not have permission
-[debug] [2021-10-30T00:14:40.185Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+[debug] [2021-10-31T09:00:40.845Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chatdemo-c001f [none]
+[debug] [2021-10-31T09:00:41.542Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chatdemo-c001f 403
+[debug] [2021-10-31T09:00:41.543Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chatdemo-c001f {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-10-31T09:00:41.544Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-10-31T09:00:41.797Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at module.exports (C:\Users\buigi\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
     at Client.doRequest (C:\Users\buigi\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:240:23)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
