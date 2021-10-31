@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/ViewGame/static/css/main.5e79ab2a.chunk.css",
+    "main.js": "/ViewGame/static/js/main.772ba80f.chunk.js",
+    "main.js.map": "/ViewGame/static/js/main.772ba80f.chunk.js.map",
+    "runtime-main.js": "/ViewGame/static/js/runtime-main.78741ad3.js",
+    "runtime-main.js.map": "/ViewGame/static/js/runtime-main.78741ad3.js.map",
+    "static/css/2.1c95cd1b.chunk.css": "/ViewGame/static/css/2.1c95cd1b.chunk.css",
+    "static/js/2.cec58e1c.chunk.js": "/ViewGame/static/js/2.cec58e1c.chunk.js",
+    "static/js/2.cec58e1c.chunk.js.map": "/ViewGame/static/js/2.cec58e1c.chunk.js.map",
+    "index.html": "/ViewGame/index.html",
+    "static/css/2.1c95cd1b.chunk.css.map": "/ViewGame/static/css/2.1c95cd1b.chunk.css.map",
+    "static/css/main.5e79ab2a.chunk.css.map": "/ViewGame/static/css/main.5e79ab2a.chunk.css.map",
+    "static/js/2.cec58e1c.chunk.js.LICENSE.txt": "/ViewGame/static/js/2.cec58e1c.chunk.js.LICENSE.txt",
+    "static/media/10.jpg": "/ViewGame/static/media/10.58885378.jpg",
+    "static/media/2.jpg": "/ViewGame/static/media/2.c2f73e1c.jpg",
+    "static/media/4.jpg": "/ViewGame/static/media/4.6c9fc852.jpg",
+    "static/media/5.jpg": "/ViewGame/static/media/5.76581151.jpg",
+    "static/media/6.jpg": "/ViewGame/static/media/6.622af378.jpg",
+    "static/media/7.jpg": "/ViewGame/static/media/7.efd12036.jpg",
+    "static/media/8.jpg": "/ViewGame/static/media/8.6843dea0.jpg",
+    "static/media/9.jpg": "/ViewGame/static/media/9.e8fa6aea.jpg",
+    "static/media/A.jpg": "/ViewGame/static/media/A.c7903773.jpg",
+    "static/media/J.jpg": "/ViewGame/static/media/J.780fe13b.jpg",
+    "static/media/K.jpg": "/ViewGame/static/media/K.83ceabee.jpg",
+    "static/media/Q.jpg": "/ViewGame/static/media/Q.f61165d8.jpg",
+    "static/media/matsau.jpg": "/ViewGame/static/media/matsau.766b5bea.jpg",
+    "static/media/index.css": "/ViewGame/static/media/myps9j.511fdb21.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78741ad3.js",
+    "static/css/2.1c95cd1b.chunk.css",
+    "static/js/2.cec58e1c.chunk.js",
+    "static/css/main.5e79ab2a.chunk.css",
+    "static/js/main.772ba80f.chunk.js"
+  ]
+}
