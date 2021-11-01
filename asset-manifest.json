@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ViewGame/static/css/main.d9945c56.chunk.css",
-    "main.js": "/ViewGame/static/js/main.96bf533d.chunk.js",
-    "main.js.map": "/ViewGame/static/js/main.96bf533d.chunk.js.map",
+    "main.js": "/ViewGame/static/js/main.feb46bff.chunk.js",
+    "main.js.map": "/ViewGame/static/js/main.feb46bff.chunk.js.map",
     "runtime-main.js": "/ViewGame/static/js/runtime-main.78741ad3.js",
     "runtime-main.js.map": "/ViewGame/static/js/runtime-main.78741ad3.js.map",
     "static/css/2.1c95cd1b.chunk.css": "/ViewGame/static/css/2.1c95cd1b.chunk.css",
@@ -33,6 +33,6 @@
     "static/css/2.1c95cd1b.chunk.css",
     "static/js/2.79da8738.chunk.js",
     "static/css/main.d9945c56.chunk.css",
-    "static/js/main.96bf533d.chunk.js"
+    "static/js/main.feb46bff.chunk.js"
   ]
 }
