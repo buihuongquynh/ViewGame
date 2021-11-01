@@ -6,7 +6,9 @@ import 'react-toastify/dist/ReactToastify.css';
 import cookies from 'axios/lib/helpers/cookies';
 import { getResult, getPredict } from './Api';
 import { CountdownCircleTimer } from 'react-countdown-circle-timer';
+import useApp from"./useApp";
 const renderTime = ({ remainingTime }) => {
+ 
   if (remainingTime === 0) {
     return <div className="timer">Too lale...</div>;
   }
@@ -31,9 +33,9 @@ function App() {
     player: '0',
     banker: '0',
   });
-  const notify = async () => {
-    await getPredict()
-      .then((response) => {
+  const {res,predict} = useApp()
+  const notify = () => {
+    const response = predict[0]
         toast.info(response.Predict, {
           position: "top-center",
           autoClose: 2000,
@@ -45,17 +47,15 @@ function App() {
           });
         setSugges(response.Predict);
         setTik(true);
-      })
-      .catch((error) => Error(error.toString()));
+     
   };
   const handleClick = (value) => {
     setTik(true);
     setWait(true);
-    const Loading = setTimeout(async () => {
+    const Loading = setTimeout(() => {
       setWait(false);
       if (play) {
-        await getResult()
-          .then((response) => {
+            const response = res[Math.floor(Math.random() * (res.length))]
             setBankerCards(response.Banker_Cards);
             setPlayerCards(response.Player_Cards);
             setResult(response.Results);
@@ -85,8 +85,7 @@ function App() {
                 progress: undefined,
                 });
             }
-          })
-          .catch((error) => Error(error.toString()));
+         
       }
     }, 3000);
   };
@@ -98,6 +97,7 @@ function App() {
   }, []);
   return (
     <React.Fragment>
+      <div className="wrapper flex relative">
       <div className="container">
         <div
           style={
@@ -267,6 +267,8 @@ function App() {
             Start
           </div>
         </div>
+      </div>
+      <img style={{position:'absolute' , bottom:"0", right:"0", transform: "rotate(50px)"}} src={require(`./unnamed.png`).default}/>
       </div>
     </React.Fragment>
   );
